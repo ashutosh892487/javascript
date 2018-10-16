@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript largestNumber()</h2>
+<p id="demo"></p>
+<script>
+var arr = [256,360,27,1,356];
+
+for(i=0;i<arr.length-1;i++){
+	arrmax=arr[i];
+	for(j=1;j<arr.length;j++){
+		if(arrmax<arr[j]){
+			arrmax=arr[j];
+
+	  }
+	}
+
+	
+}
+
+document.getElementById("demo").innerHTML = arrmax;
+</script>
+
+</body>
+</html>
